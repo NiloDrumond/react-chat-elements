@@ -21,7 +21,7 @@ import MdCheck from "react-icons/lib/md/check";
 import MdMessage from "react-icons/lib/md/message";
 import MdRemove from "react-icons/lib/md/delete";
 import MdBlock from "react-icons/lib/md/block";
-import FiMoreHorizontal from "react-icons/lib/fi/more-horizontal";
+import MdMoreHorizontal from "react-icons/lib/md/more-horiz";
 
 import { format } from "timeago.js";
 
@@ -140,7 +140,7 @@ export class MessageBox extends React.PureComponent {
                                         }
                                         onClick={this.props.onReplyClick}
                                     >
-                                        <FiMoreHorizontal />
+                                        <MdMoreHorizontal />
                                     </div>
                                 )}
 
